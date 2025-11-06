@@ -33,7 +33,7 @@
                                 </li>
                                 <li><a><i class="fa fa-edit"></i> Produto <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu">
-                                        <li><a href="form.html">General Form</a></li>
+                                        <li><a href="./produto.php">Lista de Produtos</a></li>
                                     </ul>
                                 </li>
                                 <li><a><i class="fa fa-desktop"></i> Cliente <span
