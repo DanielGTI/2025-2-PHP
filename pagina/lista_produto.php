@@ -83,6 +83,12 @@
                               <i class="fa fa-trash"></i> Excluir
                             </button>
                           </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Motorola</td>
+                          <td>G10</td>
+                          <td>8GB</td>
                           <td>
                             <a href="editar_produto.php?id=2" class="btn btn-info btn-sm" title="Editar">
                               <i class="fa fa-edit"></i> Editar
@@ -91,12 +97,6 @@
                               <i class="fa fa-trash"></i> Excluir
                             </button>
                           </td>
-                        </tr>
-                        <tr>
-                          <th scope="row">3</th>
-                          <td>Motorola</td>
-                          <td>G10</td>
-                          <td>8GB</td>
                         </tr>
                       </tbody>
                     </table>
