@@ -52,6 +52,7 @@
                           <th>Marca</th>
                           <th>Modelo</th>
                           <th>RAM</th>
+                          <th>Ações</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -60,12 +61,36 @@
                           <td>Apple</td>
                           <td>iPhone 17</td>
                           <td>32GB</td>
+                          <td>
+                            <a href="editar_produto.php?id=1" class="btn btn-info btn-sm" title="Editar">
+                              <i class="fa fa-edit"></i> Editar
+                            </a>
+                            <button class="btn btn-danger btn-sm" title="Excluir" onclick="return confirm('Tem certeza que deseja excluir este produto?')">
+                              <i class="fa fa-trash"></i> Excluir
+                            </button>
+                          </td>
                         </tr>
                         <tr>
                           <th scope="row">2</th>
                           <td>Samsung</td>
                           <td>Galaxy S25</td>
                           <td>8GB</td>
+                          <td>
+                            <a href="editar_produto.php?id=3" class="btn btn-info btn-sm" title="Editar">
+                              <i class="fa fa-edit"></i> Editar
+                            </a>
+                            <button class="btn btn-danger btn-sm" title="Excluir" onclick="return confirm('Tem certeza que deseja excluir este produto?')">
+                              <i class="fa fa-trash"></i> Excluir
+                            </button>
+                          </td>
+                          <td>
+                            <a href="editar_produto.php?id=2" class="btn btn-info btn-sm" title="Editar">
+                              <i class="fa fa-edit"></i> Editar
+                            </a>
+                            <button class="btn btn-danger btn-sm" title="Excluir" onclick="return confirm('Tem certeza que deseja excluir este produto?')">
+                              <i class="fa fa-trash"></i> Excluir
+                            </button>
+                          </td>
                         </tr>
                         <tr>
                           <th scope="row">3</th>
