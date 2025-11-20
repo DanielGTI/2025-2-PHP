@@ -1,3 +1,13 @@
+<?php
+    session_start();    // Iniciar a sessão
+
+    // Inicio da sessão
+    if( !isset($_SESSION['nome_user']) && $_SERVER['REQUEST_URI'] != '/2025-2-php/login.php') {     // Verificar se o usuário está logado
+        header('Location: login.php');                                                      // Redirecionar para a página de login
+        exit();                                                                                     // Finalizar o script
+    }
+?>
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!-- Meta, title, CSS, favicons, etc. -->
